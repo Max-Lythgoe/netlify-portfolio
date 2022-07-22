@@ -70,3 +70,14 @@ var isValid = function(s) {
     return (!heap.length)
 };
 //
+
+//isPalindrome//
+string = string.toLowerCase();
+let reversedString = string.split("").reverse().join("");
+console.log(reversedString); 
+if (string === reversedString) {
+  console.log(`${string} is palindrome`);
+} else {
+  console.log(`${string} is NOT palindrome`);
+}
+//
