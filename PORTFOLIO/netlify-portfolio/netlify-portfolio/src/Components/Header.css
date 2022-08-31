@@ -1,0 +1,90 @@
+.main-container {
+    background: linear-gradient(-45deg, #d7d7d7, #000000, #959595, #000000);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+    padding: 3em;
+    margin: none;
+}
+
+.main-title {
+    color: white;
+    font-size: 6em;
+}
+
+.main-subtext {
+  color: white;
+  font-style: italic;
+}
+
+.links-container {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+@media only screen 
+    and (device-width: 390px) 
+    and (device-height: 844px) {
+
+      .main-title {
+        color: white;
+        font-size: 2em;
+    }
+
+    .links-container {
+      flex-direction: column;
+    }
+
+}

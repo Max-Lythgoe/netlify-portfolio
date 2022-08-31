@@ -1,0 +1,91 @@
+.projects-container {
+    background: linear-gradient(0deg, rgb(230, 0, 0) 0%, rgb(0, 0, 0) 100%);
+    margin: none;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtitle {
+    font-size: 4em;
+    color: white;
+}
+
+.project-card {
+    background-color: white;
+    margin: 2em;
+    border-radius: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-subtitle {
+    font-style: italic;
+    color: gray;
+    margin: 1em;
+}
+
+.red-button {
+    background-color: rgb(49, 49, 49);
+	color: white;
+	font-style: bold;
+	border: 1px solid #111;
+	border-radius: 2em;
+	transition: all 0.4s ease-in-out;
+	margin-bottom: 20px;
+	font-size: 1em;
+    padding: 1em;
+}
+
+.red-button:hover {
+    color: #fff;
+	background-color: red;
+	border-color: red;
+    cursor: pointer;
+}
+
+.project-title {
+    font-size: 2em;
+    margin: none;
+}
+
+
+.desc {
+    padding: 2em;
+}
+
+@media screen and (min-width: 1440px) {
+    .project-card {
+        width: 50%;
+    }
+}
+
+@media only screen 
+    and (device-width: 390px) 
+    and (device-height: 844px) {
+
+    .project-card {
+        width: 100%;
+        height: 50%;
+    }
+
+    .subtitle {
+        font-size: 3em;
+    }
+
+    .projects-container {
+        padding: 10px;
+    }
+
+    .desc {
+        font-size: small;
+    }
+
+    iframe {
+        width: auto;
+        height: auto;
+    }
+
+}
