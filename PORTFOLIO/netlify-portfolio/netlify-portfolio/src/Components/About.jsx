@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import maxPic from './pics/Me_About.jpg'
+import maxPic from './pics/Me_About.jpeg'
 import AOS from "aos";
 import "aos/dist/aos.css";
 

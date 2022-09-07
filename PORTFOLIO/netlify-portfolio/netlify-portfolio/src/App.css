@@ -18,7 +18,7 @@
 }
 
 *::-webkit-scrollbar-track {
-  background: black;
+  background: rgba(0, 0, 0, 0);
 }
 
 *::-webkit-scrollbar-thumb {
@@ -29,4 +29,6 @@
 html, body {
   width: 100%;
   overflow-x: hidden;
+  overflow: overlay;
 }
+

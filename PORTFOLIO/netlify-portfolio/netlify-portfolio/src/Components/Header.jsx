@@ -8,12 +8,13 @@ const Header = () => {
     <div className='main-container'>
     <img src={mainPhoto} alt='webdev'></img>
     <h1 className='main-title'>MAX LYTHGOE</h1>
+    <p className='web-sub'>WEB DEVELOPER</p>
     <hr></hr>
     <div className='links-container'>
+    <a href="#contact">CONTACT</a>
     <a href="#projects">PROJECTS</a>
     <a href="#skills">SKILLS</a>
     <a href="#about">ABOUT</a>
-    <a href="#contact">CONTACT</a>
     </div>
     </div>
   )

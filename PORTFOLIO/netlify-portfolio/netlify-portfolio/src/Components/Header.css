@@ -11,6 +11,11 @@
     font-size: 6em;
 }
 
+.web-sub {
+  color: white;
+  font-weight: 700;
+}
+
 .main-subtext {
   color: white;
   font-style: italic;

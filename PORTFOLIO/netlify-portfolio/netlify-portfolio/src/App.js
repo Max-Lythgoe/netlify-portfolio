@@ -18,10 +18,10 @@ function App() {
   return (
     <div className="App">
      <Header />
+     <Contact />
      <Projects />
      <Skills />
      <About />
-     <Contact />
     </div>
   );
 }
