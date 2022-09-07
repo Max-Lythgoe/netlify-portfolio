@@ -34,6 +34,11 @@ const About = () => {
           It's so satisfying to see my (or your) ideas come to life.
         </p>
       </div>
+      <div className="btm-btn-cont">
+      <a href="#top">
+      <button className="red-button"> Back To Top</button>
+      </a>
+      </div>
     </div>
   );
 };

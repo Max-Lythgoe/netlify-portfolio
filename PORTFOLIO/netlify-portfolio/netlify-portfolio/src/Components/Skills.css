@@ -70,3 +70,26 @@ i {
   }
 
 }
+
+@media only screen 
+    and (device-width: 360px)
+    and (device-height: 800px) {
+      .icon-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      .subtitle {
+        font-size: 3em;
+      }
+    
+      .subtext {
+        font-size: 2em;
+      }
+    
+      i {
+        font-size: 10em;
+      }
+    }

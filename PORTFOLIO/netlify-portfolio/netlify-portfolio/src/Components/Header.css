@@ -20,7 +20,7 @@
 
 /* typing code */
 .typing-demo {
-  width: 14ch;
+  width: 25ch;
   animation: typing 2s steps(22), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
@@ -107,9 +107,12 @@ a:hover:after {
     }
 }
 
+/*MEDIA QUERIES */
+
 @media only screen 
     and (device-width: 390px) 
-    and (device-height: 844px) {
+    and (device-height: 844px)
+    and (-webkit-device-pixel-ratio: 3) {
 
       .main-title {
         color: white;
@@ -120,4 +123,25 @@ a:hover:after {
       flex-direction: column;
     }
 
+    .typing-demo {
+      font-size: 1em;
+    }
+
 }
+
+@media only screen 
+    and (device-width: 360px)
+    and (device-height: 800px) {
+      .main-title {
+        color: white;
+        font-size: 1em;
+    }
+
+    .links-container {
+      flex-direction: column;
+    }
+
+    .typing-demo {
+      font-size: 1em;
+    }
+  }

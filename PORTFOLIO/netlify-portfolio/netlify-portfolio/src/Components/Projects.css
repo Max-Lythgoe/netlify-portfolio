@@ -64,7 +64,8 @@
 
 @media only screen 
     and (device-width: 390px) 
-    and (device-height: 844px) {
+    and (device-height: 844px)
+    and (-webkit-device-pixel-ratio: 3) {
 
     .project-card {
         width: 100%;
@@ -89,3 +90,29 @@
     }
 
 }
+
+@media only screen 
+    and (device-width: 360px)
+    and (device-height: 800px) {
+        .project-card {
+            width: 100%;
+            height: 50%;
+        }
+    
+        .subtitle {
+            font-size: 3em;
+        }
+    
+        .projects-container {
+            padding: 10px;
+        }
+    
+        .desc {
+            font-size: small;
+        }
+    
+        iframe {
+            width: auto;
+            height: auto;
+        }
+    }

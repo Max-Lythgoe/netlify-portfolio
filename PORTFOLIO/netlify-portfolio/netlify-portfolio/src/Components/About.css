@@ -19,9 +19,14 @@
     width: 26rem;
 }
 
+.btm-btn-cont {
+    background-color: black;
+}
+
 @media only screen 
     and (device-width: 390px) 
-    and (device-height: 844px) {
+    and (device-height: 844px)
+    and (-webkit-device-pixel-ratio: 3) {
 
     .subtitle-black {
         font-size: 3em;
@@ -40,3 +45,23 @@
     }
 
 }
+
+@media only screen 
+    and (device-width: 360px)
+    and (device-height: 800px) {
+        .subtitle-black {
+            font-size: 3em;
+        }
+    
+        .main-about-text {
+            font-size: medium;
+        }
+    
+        .about-container {
+            padding: 1em;
+        }
+    
+        .featured-pic {
+            width: 15rem;
+        }
+    }
