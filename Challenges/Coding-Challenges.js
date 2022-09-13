@@ -81,3 +81,26 @@ if (string === reversedString) {
   console.log(`${string} is NOT palindrome`);
 }
 //
+
+//square digits//
+function squareDigits(num){
+    return Number(('' + num).split('').map(function (val) { return val * val;}).join(''));
+    
+  }
+
+//
+
+// even or odd//
+function even_or_odd(number) {
+  
+    let divNumber = (number % 2)
+    
+    console.log(divNumber)
+    
+    if (divNumber == 0) {
+      return 'Even'
+    } else {
+      return 'Odd'
+    }
+  }
+  //
