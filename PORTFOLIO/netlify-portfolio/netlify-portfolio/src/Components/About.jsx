@@ -25,13 +25,12 @@ const About = () => {
         <img src={maxPic} alt='pic of me' className="featured-pic"></img>
         </div>
         <p className="main-about-text">
-          Where to begin? Well, I'm a triplet so that's kinda fun (before you
-          ask, no we are not identical). I've lived in Utah my entire life. I
+          Hey! My name's Max, I'm an aspiring Web Developer in Utah. I
           love being creative in many forms: video editing, photoshop,
           photography, charcoal drawings, acrylic paintings ... and now
           websites. I enjoyed DevMountain's Web Development course and
           I'm always excited to learn more about web dev and coding in general.
-          It's so satisfying to see my (or your) ideas come to life.
+          Thanks for visiting my portfolio!
         </p>
       </div>
       <div className="btm-btn-cont">

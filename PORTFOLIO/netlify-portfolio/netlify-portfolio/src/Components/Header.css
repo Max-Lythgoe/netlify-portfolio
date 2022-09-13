@@ -107,12 +107,41 @@ a:hover:after {
     }
 }
 
+
 /*MEDIA QUERIES */
 
-@media only screen 
-    and (device-width: 390px) 
-    and (device-height: 844px)
-    and (-webkit-device-pixel-ratio: 3) {
+/*desktop*/
+
+@media only screen and (min-width: 1200px) 
+{
+  .main-title {
+    color: white;
+    font-size: 6em;
+}
+
+.links-container {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  font-weight: 700;
+}
+
+.typing-demo {
+  width: 25ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+  color: white;
+}
+}
+
+
+/*phone*/
+@media (max-width:480px)
+    {
 
       .main-title {
         color: white;
@@ -129,19 +158,3 @@ a:hover:after {
 
 }
 
-@media only screen 
-    and (device-width: 360px)
-    and (device-height: 800px) {
-      .main-title {
-        color: white;
-        font-size: 1em;
-    }
-
-    .links-container {
-      flex-direction: column;
-    }
-
-    .typing-demo {
-      font-size: 1em;
-    }
-  }

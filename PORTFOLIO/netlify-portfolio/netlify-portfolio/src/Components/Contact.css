@@ -26,24 +26,7 @@
   transition: all 0.2s ease-in-out;
 }
 
-@media only screen 
-    and (device-width: 390px) 
-    and (device-height: 844px)
-    and (-webkit-device-pixel-ratio: 3) {
-
-      .shake  {
-        font-size: 3em;
-      }
-
-      .icon-container-contact {
-        gap: 0;
-      }
-
-}
-
-@media only screen 
-    and (device-width: 360px)
-    and (device-height: 800px) {
+@media (max-width:480px) {
       .shake  {
         font-size: 3em;
       }
