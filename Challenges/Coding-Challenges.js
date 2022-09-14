@@ -110,3 +110,17 @@ function even_or_odd(number) {
     return (a + b).toString(2)
     }
 //
+
+
+// find number //
+
+function findNumber(arr, k) {
+    let result = 'NO';
+    arr.forEach(item => {
+      if(k === item) {
+        return result = 'YES';
+      }
+    })
+      return result;
+  }
+//
