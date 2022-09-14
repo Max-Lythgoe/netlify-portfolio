@@ -104,3 +104,9 @@ function even_or_odd(number) {
     }
   }
   //
+
+  // binary addition //
+  function addBinary(a,b) {
+    return (a + b).toString(2)
+    }
+//
