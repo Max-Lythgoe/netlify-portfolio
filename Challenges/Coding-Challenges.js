@@ -138,3 +138,12 @@ function solution(number){
     return sum
 }
 //
+
+//backwords strings//
+function reverseWords(str) {
+  let arrWords = str.split(' ')  
+  let backWrds = arrWords.map(word => word.split('').reverse().join(''))
+  return backWrds.join(' ')
+}
+
+//
