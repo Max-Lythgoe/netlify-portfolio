@@ -147,3 +147,11 @@ function reverseWords(str) {
 }
 
 //
+
+// Convert number to reversed arrray of digits //
+function digitize(n) {
+
+  return n.toString().split('').map(Number).reverse();
+
+}
+//
