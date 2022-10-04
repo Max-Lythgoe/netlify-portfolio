@@ -165,3 +165,7 @@ function removeSmallest(numbers) {
   
 }
 //
+
+//regex validate pin code //
+const validatePIN = (pin) => /^(\d{4}|\d{6})$/.test(pin)
+//
