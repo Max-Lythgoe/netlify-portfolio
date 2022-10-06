@@ -169,3 +169,16 @@ function removeSmallest(numbers) {
 //regex validate pin code //
 const validatePIN = (pin) => /^(\d{4}|\d{6})$/.test(pin)
 //
+
+//shortest word - my solution //
+function findShort(s){
+  const words = s.split(" ");
+  
+  let numbers = [];
+  
+  for(let i = 0; i < words.length; i++) {
+    numbers.push(words[i].length)
+    }
+  return Math.min(...numbers)
+}
+//
