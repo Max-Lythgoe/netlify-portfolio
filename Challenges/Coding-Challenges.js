@@ -182,3 +182,11 @@ function findShort(s){
   return Math.min(...numbers)
 }
 //
+
+//highest and lowest//
+function highAndLow(numbers){
+  nums = numbers.split(" ");
+  
+  return `${(Math.max(...nums))}` + ` ` + `${(Math.min(...nums))}`
+}
+//
