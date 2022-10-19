@@ -190,3 +190,15 @@ function highAndLow(numbers){
   return `${(Math.max(...nums))}` + ` ` + `${(Math.min(...nums))}`
 }
 //
+
+//Will there be enough space?//
+function enough(cap, on, wait) {
+  const pass = (cap - on - wait)
+  
+  if (pass <= 0) {
+    return Math.abs(pass)
+  } else {
+    return 0
+  }
+}
+//
