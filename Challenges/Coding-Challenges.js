@@ -215,3 +215,9 @@ for (let i = 1; i <= n; i++) {
 return count
 }
 //
+//is this a triangle?//
+function isTriangle(a,b,c)
+{
+  return (a + b > c) && (a + c > b) && (b + c > a);
+}
+//
