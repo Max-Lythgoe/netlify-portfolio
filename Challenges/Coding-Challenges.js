@@ -221,3 +221,8 @@ function isTriangle(a,b,c)
   return (a + b > c) && (a + c > b) && (b + c > a);
 }
 //
+//you're a square!//
+var isSquare = function(n){
+  return Math.sqrt(n) % 1 === 0;
+}
+//
