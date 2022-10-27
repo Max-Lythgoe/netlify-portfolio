@@ -226,3 +226,9 @@ var isSquare = function(n){
   return Math.sqrt(n) % 1 === 0;
 }
 //
+
+//Check for factor//
+function checkForFactor (base, factor) {
+  return (base % factor == 0 ? true : false)
+}
+//
