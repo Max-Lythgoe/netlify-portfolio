@@ -232,3 +232,9 @@ function checkForFactor (base, factor) {
   return (base % factor == 0 ? true : false)
 }
 //
+
+//Function 2 - squaring an argument//
+function square(num) {
+  return num*num
+}
+//
