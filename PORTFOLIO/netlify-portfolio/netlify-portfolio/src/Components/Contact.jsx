@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contact.css";
-import myResume from "./pics/max-resume.pdf"
+// import myResume from "./pics/max-resume.pdf"
 
 const Contact = () => {
   return (
@@ -25,7 +25,7 @@ const Contact = () => {
 
         <div className="row2">
         <div className="icon-indv">
-            <a href={myResume} target="_blank" rel="noreferrer">
+            <a href="https://docs.google.com/document/d/1sEumTM1Fia80QPUgiL9wUAC4Im9C884sb3fkQ2P63uw/edit?usp=sharing" target="_blank" rel="noreferrer">
           <i class="fa-solid fa-file-arrow-down white shake"></i>
           <p className="white">Resume</p>
           </a>
