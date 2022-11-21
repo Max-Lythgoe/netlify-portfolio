@@ -56,6 +56,15 @@
     padding: 2em;
 }
 
+.ui-pic {
+    width:75%;
+    height:auto;
+}
+
+.rows {
+    flex-direction: row;
+}
+
 @media screen and (min-width: 1440px) {
     .project-card {
         width: 50%;
@@ -81,7 +90,7 @@
             font-size: small;
         }
     
-        iframe {
+        .youtube {
             width: auto;
             height: auto;
         }
