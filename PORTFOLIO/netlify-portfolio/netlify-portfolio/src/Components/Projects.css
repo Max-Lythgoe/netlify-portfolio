@@ -65,6 +65,32 @@
     flex-direction: row;
 }
 
+.demo-btn {
+    border: 1px solid white;
+	border-radius: 1em;
+    background: url("https://snowbrains.com/wp-content/uploads/2021/07/SLC-scaled.jpg") no-repeat top;
+    backdrop-filter: blur(10px);
+    color: white;
+    font-size: 4em;
+    font-weight: 700;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    transition: ease-in-out .5s;
+}
+
+.demo-btn:hover {
+    transition: ease-in-out .5s;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 5em;
+    cursor: pointer;
+}
+
+.utah-link {
+    color: black;
+}
+
 @media screen and (min-width: 1440px) {
     .project-card {
         width: 50%;

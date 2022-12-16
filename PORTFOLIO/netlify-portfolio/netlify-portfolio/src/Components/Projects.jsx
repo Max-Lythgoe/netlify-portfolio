@@ -15,6 +15,21 @@ const Projects = () => {
         <div className='project-card' data-aos="fade-up"
      data-aos-anchor-placement="top-center"
      data-aos-offset="-500">
+            <h3 className='project-title'>Utah Frontend Redesign</h3>
+            <h4 className='project-subtitle'>HTML, CSS, JavaScript</h4>
+            <a className='red-link' href='https://github.com/Max-Lythgoe/FunDesign' target="_blank" rel="noreferrer">
+            <button className='red-button'>View Github Repo</button>
+            </a>
+            <br></br>
+            
+            <a target='_blank' rel="noreferrer" href='https://utahremake.netlify.app/'><button className='demo-btn'>View Demo</button></a>
+            
+            <p className='desc'>This was a fun little project I recently made to re-create the <a target='_blank' rel="noreferrer" href='https://www.utah.gov/index.html' className='utah-link'>Utah.gov</a> home page. I wanted to test my CSS skills by recreating certain animations or sections of the page while also creating some things entirely new in my own design. Made for fun using HTML, CSS and JavaScript. (Note: this was not optimized for mobile and was made for desktop view only)</p>
+        </div>
+
+        <div className='project-card' data-aos="fade-up"
+     data-aos-anchor-placement="top-center"
+     data-aos-offset="-500">
             <h3 className='project-title'>UI Mockups</h3>
             <h4 className='project-subtitle'>Figma</h4>
             <div className='rows'>

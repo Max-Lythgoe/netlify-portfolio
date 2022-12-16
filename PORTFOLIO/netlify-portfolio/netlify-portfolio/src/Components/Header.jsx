@@ -12,10 +12,10 @@ const Header = () => {
       </div>
       <hr></hr>
       <div className="links-container">
-        <a href="#contact">CONTACT</a>
-        <a href="#projects">PROJECTS</a>
-        <a href="#skills">SKILLS</a>
-        <a href="#about">ABOUT</a>
+        <a className="cool" href="#contact">CONTACT</a>
+        <a className="cool" href="#projects">PROJECTS</a>
+        <a className="cool" href="#skills">SKILLS</a>
+        <a className="cool" href="#about">ABOUT</a>
       </div>
     </div>
   );
