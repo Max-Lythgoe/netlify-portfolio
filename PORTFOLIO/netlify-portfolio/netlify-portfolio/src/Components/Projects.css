@@ -97,6 +97,10 @@
     }
 }
 
+iframe {
+    border-radius: 15px;
+}
+
 
 @media (max-width:480px) {
         .project-card {

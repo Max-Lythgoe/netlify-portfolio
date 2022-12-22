@@ -25,11 +25,11 @@ const About = () => {
         <img src={maxPic} alt='pic of me' className="featured-pic"></img>
         </div>
         <p className="main-about-text">
-          Hey! My name's Max, I'm an aspiring Web Developer in Utah. I
+          Hey! My name's Max, I'm a web developer from Utah. I
           love being creative in many forms: video editing, photoshop,
           photography, charcoal drawings, acrylic paintings ... and now
           websites. I enjoyed DevMountain's Web Development course and
-          I'm always excited to learn more about web dev and coding in general.
+          I'm always excited to learn more about web dev and coding in general. I'm constantly learning so you may find my portoflio changing as I create more projects and learn new technologies.
           Thanks for visiting my portfolio!
         </p>
       </div>
