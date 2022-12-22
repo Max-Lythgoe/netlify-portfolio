@@ -2,7 +2,6 @@ import React from 'react'
 import "./Projects.css"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import uipic from './pics/uimockup.PNG';
 
 
 const Projects = () => {
@@ -25,28 +24,6 @@ const Projects = () => {
             <a target='_blank' rel="noreferrer" href='https://utahremake.netlify.app/'><button className='demo-btn'>View Demo</button></a>
             
             <p className='desc'>This was a fun little project I recently made to re-create the <a target='_blank' rel="noreferrer" href='https://www.utah.gov/index.html' className='utah-link'>Utah.gov</a> home page. I wanted to test my CSS skills by recreating certain animations or sections of the page while also creating some things entirely new in my own design. Made for fun using HTML, CSS and JavaScript. (Note: this was not optimized for mobile and was made for desktop view only)</p>
-        </div>
-
-        <div className='project-card' data-aos="fade-up"
-     data-aos-anchor-placement="top-center"
-     data-aos-offset="-500">
-            <h3 className='project-title'>UI Mockups</h3>
-            <h4 className='project-subtitle'>Figma</h4>
-            <div className='rows'>
-            <a className='red-link' href='https://www.figma.com/file/b77fvpU6MwJKZXoA7sOUso/Resturaunt?node-id=0%3A1&t=XU826n9AmkFRk2rx-1' target="_blank" rel="noreferrer">
-            <button className='red-button'>View Resturaunt Mockup</button>
-            </a>
-            <a className='red-link' href='https://www.figma.com/file/KQLUivBJYlNVglXRFIfagw/TechStack?t=BsWXMbKjEmqpLoCU-1' target="_blank" rel="noreferrer">
-            <button className='red-button'>View Tech Mockup</button>
-            </a>
-            <a className='red-link' href='https://www.figma.com/file/ub8BCDwNzR6t6oV2C38heT/Maxed-Out-Music?node-id=0%3A1&t=S1e2LjWRKswrgnHq-1' target="_blank" rel="noreferrer">
-            <button className='red-button'>View Music Mockup</button>
-            </a>
-            </div>
-            <br></br>
-            <img className='ui-pic' alt='website wireframe mockup' src={uipic}></img>
-            
-            <p className='desc'>These are various UI mockups I have made using Figma. Checkout the links for more info. None of these sites are deployed but were made simply to showcase design guidelines and wireframes created for personal projects or for fun.</p>
         </div>
 
         <div className='project-card' data-aos="fade-up"
